@@ -47,7 +47,7 @@ namespace AssetStudio
             }
             m_Normals = new PackedFloatVector(reader);
             m_Tangents = new PackedFloatVector(reader);
-            m_Weights = new PackedIntVector(reader);
+            m_Weights = new PackedIntVector(0);
             m_NormalSigns = new PackedIntVector(reader);
             m_TangentSigns = new PackedIntVector(reader);
             if (version[0] >= 5)
@@ -730,7 +730,7 @@ namespace AssetStudio
                 }
             }
 
-            if (reader.Game.Type.IsZZZCB1())
+            if (reader.Game.Type.IsZZZ())
             {
                 var m_CloseMeshDynamicCompression = reader.ReadBoolean();
                 reader.AlignStream();
