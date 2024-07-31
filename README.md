@@ -5,6 +5,8 @@ This will help with accessing props and level meshs, anything that doesnt bend o
 
 I dont know how to maintain too so, I hope it lasts! See the code history on Mesh.cs to see what I changed to make this fix work! <3
 
+>> I have discovered it only loads proxy models or Lod files, going to try my best, with help, to figure this one out!
+
 # Studio
 
 # NOTICE: Project has been temporarily suspended till further notice.
