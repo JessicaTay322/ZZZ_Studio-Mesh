@@ -1,3 +1,10 @@
+# THIS FORK ONLY WORKS WITH STATIC MESHES
+
+That means if you want characters, please go to the original project [here](https://github.com/hashblen/ZZZ_Studio/tree/main)
+This will help with accessing props and level meshs, anything that doesnt bend or have bones really~
+
+I dont know how to maintain too so, I hope it lasts! See the code history on Mesh.cs to see what I changed to make this fix work! <3
+
 # Studio
 
 # NOTICE: Project has been temporarily suspended till further notice.
