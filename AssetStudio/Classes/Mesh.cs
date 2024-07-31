@@ -47,7 +47,7 @@ namespace AssetStudio
             }
             m_Normals = new PackedFloatVector(reader);
             m_Tangents = new PackedFloatVector(reader);
-            m_Weights = new PackedIntVector(0);
+            m_Weights = new PackedIntVector(reader);
             m_NormalSigns = new PackedIntVector(reader);
             m_TangentSigns = new PackedIntVector(reader);
             if (version[0] >= 5)
