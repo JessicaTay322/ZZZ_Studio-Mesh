@@ -733,7 +733,7 @@ namespace AssetStudio
             if (reader.Game.Type.IsZZZ())
             {
                 //var m_CloseMeshDynamicCompression = reader.ReadBoolean();
-                //reader.AlignStream();
+                reader.AlignStream();
 
                 var m_CompressLevelVertexData = reader.ReadInt32();
                 var m_CompressLevelNormalAndTangent = reader.ReadInt32();
