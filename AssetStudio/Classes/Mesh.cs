@@ -737,9 +737,9 @@ namespace AssetStudio
 
                 var m_CompressLevelVertexData = reader.ReadInt32();
                 //var m_CompressLevelNormalAndTangent = reader.ReadInt32();
-                var m_Pusher1 = reader.ReadBoolean();
-                var m_Pusher2 = reader.ReadBoolean();
-                var m_Pusher3 = reader.ReadBoolean();
+                //var m_Pusher1 = reader.ReadBoolean();
+                //var m_Pusher2 = reader.ReadBoolean();
+                //var m_Pusher3 = reader.ReadBoolean();
                 //var m_CompressLevelTexCoordinates = reader.ReadInt32();
                 //var m_CompressLevelTriangles = reader.ReadInt32();
             }
