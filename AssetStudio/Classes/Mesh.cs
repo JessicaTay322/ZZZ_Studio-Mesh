@@ -732,8 +732,8 @@ namespace AssetStudio
 
             if (reader.Game.Type.IsZZZ())
             {
-                var m_CloseMeshDynamicCompression = reader.ReadBoolean();
-                reader.AlignStream();
+                //var m_CloseMeshDynamicCompression = reader.ReadBoolean();
+                //reader.AlignStream();
 
                 var m_CompressLevelVertexData = reader.ReadInt32();
                 var m_CompressLevelNormalAndTangent = reader.ReadInt32();
@@ -786,7 +786,7 @@ namespace AssetStudio
             }
             if (version[0] > 3 || (version[0] == 3 && version[1] >= 5)) //3.5 and up
             {
-                //ReadVertexData();
+                ReadVertexData();
             }
 
             if (m_CollisionMeshBaked)
